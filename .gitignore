@@ -7,12 +7,27 @@
 # git add .
 # git commit -m "First Commit"
 # git push origin master
-# 
-# 
-# 
-# 
-# 
-# 
+
+# git remote add origin https://github.com/Ajith369369/my-portfolio-888.git
+# git branch -M main
+# git push -u origin main
+# git remote -v
+
+# git branch -M main
+# This command consists of:
+# git branch: This is the Git command for working with branches.
+# -M: This option stands for "move" and "force", which means that Git will rename the branch even if a branch with the new name already exists.
+# main: This is the new name for the branch.
+# This command is commonly used when transitioning from using the default branch name "master" to "main", which has become a common practice in many Git repositories to remove potentially racially charged language.
+
+# git push -u origin main
+# The command git push -u origin main is used to push the changes from the local "main" branch to the remote repository named "origin" and set up tracking to the remote "main" branch.
+# Breaking it down:
+# git push: This is the Git command used to push commits from the local repository to a remote repository.
+# -u: This option stands for "upstream". When used with git push, it tells Git to set up the tracking information so that the local branch is linked to the remote branch.
+# origin: This is the name of the remote repository. "origin" is the default name given to the remote repository when it's cloned.
+# main: This is the name of the branch you're pushing to on the remote repository.
+# So, running this command will push the local changes in the "main" branch to the remote repository named "origin" and set up tracking so that future pushes and pulls can be made without specifying the remote and the branch every time.
 # 
 # 
 # 
